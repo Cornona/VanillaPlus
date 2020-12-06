@@ -1,0 +1,37 @@
+main: net.vanillaaddons.main.VanillaAddons
+name: VanillaAddons
+description: Commands and features that should be defaulted in Spigot/Vanilla. Similar to Essentials, but with a Vanilla style.
+version: 0.1
+commands:
+  gmc:
+    description: Change game mode to Creative.
+    permission: minecraft.command.gamemode
+    aliases: gmc
+  gms:
+    description: Change game mode to Survival.
+    permission: minecraft.command.gamemode
+    aliases: gms
+  gma:
+    description: Change game mode to Adventure.
+    permission: minecraft.command.gamemode
+    aliases: gma
+  god:
+    description: Put someone into god mode
+    permission: minecraft.command.god
+    aliases: god
+  ip:
+    description: Return a player's ip
+    permission: minecraft.command.ip
+    aliases: ip
+  fly:
+    description: Allow a player to fly
+    permission: minecraft.command.fly
+    aliases: fly
+  heal:
+    description: Heal someone
+    permission: minecraft.command.heal
+    aliases: heal
+  speed:
+    description: Change someones speed
+    permission: minecraft.command.speed
+    aliases: speed
